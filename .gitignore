@@ -1,2 +1,4 @@
 .idea/
 venv/
+mysite/db.sqlite3
+mysite/.coverage
