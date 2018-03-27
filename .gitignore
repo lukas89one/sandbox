@@ -1,4 +1,5 @@
 .idea/
+__pycache__
 venv/
 mysite/db.sqlite3
 mysite/.coverage
