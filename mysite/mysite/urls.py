@@ -16,10 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.urls import include, path
 from django.contrib import admin
+from rest_framework.documentation import include_docs_urls
 
 urlpatterns = [
-    url(r'^', include('snippets.urls')),
-    url(r'^api-auth/', include('rest_framework.urls')),
+    path('api/', include('api.urls')),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    url(r'^api/v1/docs/', include_docs_urls(title='Mysite API', public=False)),
 ]
