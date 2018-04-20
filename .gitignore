@@ -1,5 +1,10 @@
 .idea/
 __pycache__
 venv/
-mysite/db.sqlite3
+*.sqlite3
 mysite/.coverage
+*.db
+*.pyc
+*.egg-info/
+.eggs/
+.pytest_cache
