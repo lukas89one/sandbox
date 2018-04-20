@@ -14,3 +14,21 @@ List of used sources:
 ## Mysite
 
 Test Django project created from Django tutorial to play with Django REST Framework features
+
+## Flaskr
+
+Test Flask project created from Flask tutorial http://flask.pocoo.org/docs/0.12/tutorial/
+
+### Install
+
+In ```flaskr`` dir: ```pip install --editable .```
+
+### Run
+
+```export FLASK_APP=flaskr
+export FLASK_DEBUG=true
+flask run```
+
+### Run tests
+
+In ```flaskr`` dir: ```python setup.py test```
